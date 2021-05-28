@@ -1,0 +1,42 @@
+.login-body{
+    background-color: rgb(224, 219, 219);
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.login-container{
+    background-color: white;
+    display: flex;
+    padding: 1rem 2rem 5rem 2rem;
+    border-radius: 10px;
+    flex-direction: column;
+    
+}
+.login-header{
+    margin: 2rem;
+    font-size: 2rem;
+}
+.login-container li{
+    border: 1px solid rgb(224, 219, 219);
+    padding: 5px ;
+    display: flex;
+    margin: 10px ;
+    list-style: none;
+    border-radius: 20px;
+}
+.MuiInput-underline:before{
+    border-bottom: none !important;
+} 
+.login-body  .MuiButton-root{
+    width: 100% !important;
+    background-color: rgb(224, 219, 219) !important;
+}
+.login-container li input{
+    padding: 6px 8px;
+    width: 100% !important;
+
+    /* margin: 15px; */
+}
